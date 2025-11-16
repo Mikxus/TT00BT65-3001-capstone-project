@@ -9,7 +9,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif(NOT CMAKE_BUILD_TYPE)
 
 # GCC pedantic compiler options
-set(gcc_compiler_options "-Wextra -Wall -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wcast-align -Wstrict-prototypes \
+set(gcc_compiler_options "-std=gnu11 -Wextra -Wall -Werror -Wpedantic -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wcast-align -Wstrict-prototypes \
 -Wwrite-strings -Wcast-qual -Waggregate-return -Wswitch-default -Wformat=2")
 
 # Compiler options for build types
