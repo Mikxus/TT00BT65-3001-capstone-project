@@ -1,0 +1,8 @@
+# editor files
+*.vscode
+
+# build files
+*build
+*.a
+*.out
+*.map
